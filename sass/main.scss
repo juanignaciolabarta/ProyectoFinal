@@ -1,0 +1,298 @@
+
+@import "_vars";
+@import "_navBar";
+@import "_footer";
+@import "_font";
+@import "_commons";
+
+
+
+
+body{
+    background-color: $backrground;
+   
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    //index
+
+.texto-index{
+
+    text-align: justify;
+
+}
+ 
+@media all and (max-width: 767px){
+ 
+     .col-md-6{
+
+        margin-top: 2rem;
+     }
+
+}
+
+
+
+
+
+
+
+
+
+//contacto
+
+.contacto{
+
+    display: inline-flex;
+    
+
+
+.imagen-contacto{
+
+    width: 40rem;
+
+
+    .img-de-contacto{
+
+        margin: 1rem;
+    }
+}
+    .img-icono{
+
+        height: 3rem;
+        margin-left: 9rem;
+        margin-top: 3rem;
+    }
+
+    .t-de-contacto{
+
+        text-align: right;
+        margin-top: 2rem;
+        margin-right: 3rem;
+    }
+}
+
+.mapa-contacto{
+
+    width: 100%;
+
+    .texto-mapa{
+
+        background-color: $Arena-3;
+        text-align: center;
+    }
+
+    .mapa{
+        height: 25rem;
+        width: 80%;
+        margin-left: 10%;
+        padding-bottom: 3rem;
+    }
+
+   
+}
+
+@media all and (max-width: 575px){
+
+    
+    
+    .contacto{
+
+        display: block;    
+        width: 100%;    
+    
+        .imagen-contacto{
+            display: block;
+            width: 28rem;    
+            text-align: center;
+
+        }
+    
+        .img-icono{
+            display: inline-flex;
+            height: 4rem;
+            margin-left: 5rem;
+            margin-top: 5rem;
+            margin-bottom: 2rem;
+        }
+    
+        .t-de-contacto{
+    
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+    
+    }
+    
+}
+
+//@media all and (max-width: 1225px){
+
+
+
+//.imagen-contacto{
+
+//    width: 30%;
+
+//}
+
+
+
+
+//}
+
+
+
+
+
+
+
+
+//Nosotros
+
+.nosotros{
+
+
+    h1{
+        background-color: $Arena-2;
+        font-size: $fontMain;
+        height: 40%;
+        width: 100%;
+
+    }
+
+    .nosotros-equipo{
+
+     background-color: $Arena-1;
+   
+    }
+
+    
+
+}
+
+
+.nosotros-lista{
+    animation-duration: 2s;
+    animation-name: slidein;
+    font-size: $secondariFont;
+    width: 50%;
+    margin: 1rem;
+    text-align: justify;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+
+
+
+//Noticias
+
+.inicio-de-noticias{
+
+   
+    h1{
+        font-family: $fontMain;
+        position: absolute;
+        text-align: center;
+        font-size: $textLg;
+        margin: 15% 30% 20% 32%;
+
+    }
+
+    img{
+        width: 100%;
+        height: 10%;
+        opacity: 50%;
+        filter: blur(4px);
+    }
+
+   
+
+}
+
+@media all and (max-width: 575px){
+
+    .eventos-noticias{
+        font-family: $fontMain;
+        position: absolute;
+        text-align: center;
+        font-size: 2%;
+        margin: 0% 10%;
+
+    }
+    
+}
+
+.noticias{
+
+ display: flex;
+
+       .card{
+
+    margin: 2rem;
+
+  }   
+
+  .texto-bitacora{
+
+    text-align: justify;
+}
+
+.col-sm-12{
+
+    padding: 1rem 1rem 2rem 1rem;
+}   
+}
+
+
+
+
+
+
+
+
+
+//DONACIONES
+
+.imagen-donaciones{
+
+    text-align: center;
+    margin-bottom: 10%;
+    height: 35%;
+    h1{
+        font-family: $secondariFont;
+       margin-top: 1rem;
+       background-color: $Arena-3;
+
+    }
+}
+
+.donaciones-datos{
+
+    text-align: center;
+    p{ 
+        padding: 1rem;
+    }
+
+}
+

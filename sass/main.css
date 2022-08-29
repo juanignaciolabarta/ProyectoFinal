@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2? family= Poppins:wght@200 & display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap");
+.navbar {
+  background-color: rgb(215, 230, 164);
+  padding-left: 2em;
+}
+.navbar collapse {
+  padding-right: 2rem;
+}
+
+.footer {
+  background-color: rgb(215, 230, 164);
+  text-align: center;
+}
+.footer .imagen-footer {
+  margin: 1%;
+  padding: 2%;
+  text-align: center;
+}
+.footer .img-de-footer-1 {
+  width: 28%;
+}
+.footer .img-de-footer-2 {
+  width: 24%;
+}
+
+body {
+  background-color: rgb(255, 247, 216);
+}
+
+.texto-index {
+  text-align: justify;
+}
+
+@media all and (max-width: 767px) {
+  .col-md-6 {
+    margin-top: 2rem;
+  }
+}
+.contacto {
+  display: inline-flex;
+}
+.contacto .imagen-contacto {
+  width: 40rem;
+}
+.contacto .imagen-contacto .img-de-contacto {
+  margin: 1rem;
+}
+.contacto .img-icono {
+  height: 3rem;
+  margin-left: 9rem;
+  margin-top: 3rem;
+}
+.contacto .t-de-contacto {
+  text-align: right;
+  margin-top: 2rem;
+  margin-right: 3rem;
+}
+
+.mapa-contacto {
+  width: 100%;
+}
+.mapa-contacto .texto-mapa {
+  background-color: rgb(215, 230, 164);
+  text-align: center;
+}
+.mapa-contacto .mapa {
+  height: 25rem;
+  width: 80%;
+  margin-left: 10%;
+  padding-bottom: 3rem;
+}
+
+@media all and (max-width: 575px) {
+  .contacto {
+    display: block;
+    width: 100%;
+  }
+  .contacto .imagen-contacto {
+    display: block;
+    width: 28rem;
+    text-align: center;
+  }
+  .contacto .img-icono {
+    display: inline-flex;
+    height: 4rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+  .contacto .t-de-contacto {
+    text-align: center;
+    margin-top: 2rem;
+  }
+}
+.nosotros h1 {
+  background-color: rgb(226, 235, 164);
+  font-size: "Poppins", sans-serif;
+  height: 40%;
+  width: 100%;
+}
+.nosotros .nosotros-equipo {
+  background-color: rgb(255, 247, 216);
+}
+
+.nosotros-lista {
+  animation-duration: 2s;
+  animation-name: slidein;
+  font-size: "Roboto", sans-serif;
+  width: 50%;
+  margin: 1rem;
+  text-align: justify;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.inicio-de-noticias h1 {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  text-align: center;
+  font-size: 3em;
+  margin: 15% 30% 20% 32%;
+}
+.inicio-de-noticias img {
+  width: 100%;
+  height: 10%;
+  opacity: 50%;
+  filter: blur(4px);
+}
+
+@media all and (max-width: 575px) {
+  .eventos-noticias {
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    text-align: center;
+    font-size: 2%;
+    margin: 0% 10%;
+  }
+}
+.noticias {
+  display: flex;
+}
+.noticias .card {
+  margin: 2rem;
+}
+.noticias .texto-bitacora {
+  text-align: justify;
+}
+.noticias .col-sm-12 {
+  padding: 1rem 1rem 2rem 1rem;
+}
+
+.imagen-donaciones {
+  text-align: center;
+  margin-bottom: 10%;
+  height: 35%;
+}
+.imagen-donaciones h1 {
+  font-family: "Roboto", sans-serif;
+  margin-top: 1rem;
+  background-color: rgb(215, 230, 164);
+}
+
+.donaciones-datos {
+  text-align: center;
+}
+.donaciones-datos p {
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=main.css.map */
